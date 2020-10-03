@@ -1,5 +1,5 @@
 (ns io.rkn.conformity
-  (:require [datomic.api :refer [q db] :as d]
+  (:require [datomic.client.api :refer [q db] :as d]
             [clojure.java.io :as io]))
 
 (def ^:deprecated default-conformity-attribute :confirmity/conformed-norms)
