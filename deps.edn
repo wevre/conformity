@@ -1,0 +1,6 @@
+{:paths ["src"]
+ :mvn/repos {"my.datomic.com" {:url "https://my.datomic.com/repo"}}
+ :deps {org.clojure/clojure {:mvn/version "1.10.1"}
+        com.datomic/client-pro {:mvn/version "0.9.63"}
+        com.datomic/datomic-pro {:mvn/version "1.0.6165"}}
+ :aliases {:test {:extra-paths ["test" "resources"]}}}

@@ -1,5 +1,5 @@
 (ns io.rkn.conformity-test
-  (:require [clojure.test :refer :all]
+  (:require [clojure.test :refer [deftest is testing]]
             [io.rkn.conformity :refer :all]
             [datomic.api :refer [q db] :as d]
             [migrations.txes :refer [txes-foo txes-bar]]))
